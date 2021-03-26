@@ -1,0 +1,176 @@
+body {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #363636;
+}
+
+#newsletter {
+    background-color: purple;
+    height: 50px;
+}
+
+#newsletter img {
+    display: flex;
+    width: 50px;
+    left: 0%;
+    position: absolute;
+    filter: brightness(3);
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo img {
+    display: inline-block;
+    width: 200px;
+    border-right: solid 1px red;
+}
+
+#champs_newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#champs_newsletter button {
+    background-color: rgb(47, 218, 104);
+    font-size: 12px;
+    padding: 8.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.76);
+    border-radius: 4px;
+    margin: 3px;
+    border: 0;
+    text-transform: uppercase;
+}
+
+#champs_newsletter input {
+    padding: 8px;
+    margin: 3px;
+    border-radius: 4px;
+    border: 50px;
+}
+
+#champs_newsletter span {
+    color: white;
+    margin: 3px;
+    font-size: 17px;
+}
+
+nav {
+    display: flex;
+    margin: 0;
+    border: solid red 1px;
+}
+
+nav li {
+    display: inline;
+    font-size: 15px;
+    margin: 25px;
+}
+
+.menu {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    width: 85%;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #363636;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    border-bottom: 3px solid #363636;
+}
+
+#contenu {
+    text-align: justify;
+    display: block;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+#contenu {
+    margin-bottom: 50px;
+}
+
+#contenu p {
+    margin-bottom: 50px;
+}
+
+#contenu li {
+    margin: 20px;
+}
+
+#contenu ul {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #363636;
+    height: 500px;
+    display: block;
+}
+
+footer div {
+    display: inline-block;
+    text-align: center;
+    padding: 60px;
+}
+
+footer p {
+    color: #8d8d8d;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.social {
+    margin: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+#section {
+    border-bottom: 1px solid #3C3C3C;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footerlogo {
+    display: block;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    height: 150px;
+}
