@@ -19,12 +19,12 @@ body {
 
 .logo {
     width: 15%;
+    border-right:1px solid #dfdfdf;
 }
 
 .logo img {
     display: inline-block;
     width: 200px;
-    border-right: solid 1px red;
 }
 
 #champs_newsletter div {
@@ -52,6 +52,7 @@ body {
     margin: 3px;
     border-radius: 4px;
     border: 50px;
+    font-style: italic;
 }
 
 #champs_newsletter span {
@@ -63,7 +64,7 @@ body {
 nav {
     display: flex;
     margin: 0;
-    border: solid red 1px;
+    border-bottom: 1px solid #dfdfdf;
 }
 
 nav li {
@@ -83,7 +84,7 @@ nav li {
     text-decoration: none;
     text-transform: uppercase;
     color: #363636;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
